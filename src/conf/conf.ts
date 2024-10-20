@@ -12,3 +12,5 @@ const conf: Config = {
   apperiteCollectionId: process.env.APPERITE_COLLECTION_ID as string,
   apperiteBucketId: process.env.APPERITE_BUCKET_ID as string,
 };
+
+export default conf;
